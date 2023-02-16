@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProGamer - Home</title>
     <style>
-        #cabecalho2{
+        #cabecalho{
             display: flex;
             justify-content: space-between;
             background-color: black;
         }
-        #cabecalho img {
+        #img-cabecalho {
             justify-content: first baseline;
         }
-        #cabecalho2 a {
+        #cabecalho a {
             color: white;
             text-decoration: none;
             margin-right: 5px;
@@ -26,28 +26,42 @@
     </style>
 </head>
 <body>
-    <div id="cabecalho2">
+    <!-- Utilizar tag semantica sempre que possivel -->
+    <header id="cabecalho">
+    <!-- header tag semantica para utilizar no cabeçalho -->
         
-        <div id=cabecalhoImg>
+        <div id="grid-layout">
             <img src="logotipo-gamer.png" alt="Logotipo Aqui">
+
+            <nav id="menu">
+                <!-- nav tag semantica para utilizar na barra de navegação -->
+                <a href="home.html">Início</a>
+                <a href="jogadores.html">Jogadores</a>
+                <a href="equipes.html">Equipes</a>
+                <a href="login.html">Login</a>
+            </nav>
         </div>
+    </header>
 
-        <div id="menu">
-            <a href="home.html">Início</a>
-            <a href="jogadores.html">Jogadores</a>
-            <a href="equipes.html">Equipes</a>
-            <a href="login.html">Login</a>
-        </div>
-    </div>
+    <main>
 
-    <h1>HTML Básico - códigos HTML</h1>
+        <section id="">
 
-    <p><em>Aprenda os principios básicos para confecção de um site em HTML para que você possa fazer o seu primeiro site</em></p>
-    
-    <h2>Motivação</h2>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quis excepturi amet necessitatibus adipisci. Temporibus minus eius, asperiores molestiae dolore voluptates cumque atque veniam, minima ab maxime perferendis nisi officiis?</p>
-    
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, optio possimus! Accusantium sunt, voluptatibus magni inventore beatae commodi nihil. Voluptatum ad rerum unde velit veniam necessitatibus aut blanditiis quos dignissimos!</p>
+        </section>
+
+        <h1>HTML Básico - códigos HTML</h1>
+
+        <p><em>Aprenda os principios básicos para confecção de um site em HTML para que você possa fazer o seu primeiro site</em></p>
+        
+        <h2>Motivação</h2>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quis excepturi amet necessitatibus adipisci. Temporibus minus eius, asperiores molestiae dolore voluptates cumque atque veniam, minima ab maxime perferendis nisi officiis?</p>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, optio possimus! Accusantium sunt, voluptatibus magni inventore beatae commodi nihil. Voluptatum ad rerum unde velit veniam necessitatibus aut blanditiis quos dignissimos!</p>
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
