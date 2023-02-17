@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProGamer - Home</title>
     <style>
-        #cabecalho{
+        header {
             display: flex;
             justify-content: space-between;
             background-color: black;
@@ -14,7 +14,7 @@
         #img-cabecalho {
             justify-content: first baseline;
         }
-        #cabecalho a {
+        header a {
             color: white;
             text-decoration: none;
             margin-right: 5px;
@@ -23,14 +23,19 @@
             display: flex;
             justify-content: center;
         }
+        #segundo {
+            color: green;
+        }
     </style>
 </head>
 <body>
     <!-- Utilizar tag semantica sempre que possivel -->
-    <header id="cabecalho">
+    <header>
     <!-- header tag semantica para utilizar no cabeçalho -->
-        
-        <div id="grid-layout">
+        <div>
+            <img src="" alt="">
+        </div>
+        <div id="grid-layout"> 
             <img src="logotipo-gamer.png" alt="Logotipo Aqui">
 
             <nav id="menu">
@@ -57,7 +62,7 @@
         
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quis excepturi amet necessitatibus adipisci. Temporibus minus eius, asperiores molestiae dolore voluptates cumque atque veniam, minima ab maxime perferendis nisi officiis?</p>
         
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, optio possimus! Accusantium sunt, voluptatibus magni inventore beatae commodi nihil. Voluptatum ad rerum unde velit veniam necessitatibus aut blanditiis quos dignissimos!</p>
+        <p id="segundo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, optio possimus! Accusantium sunt, voluptatibus magni inventore beatae commodi nihil. Voluptatum ad rerum unde velit veniam necessitatibus aut blanditiis quos dignissimos!</p>
     </main>
 
     <footer>
