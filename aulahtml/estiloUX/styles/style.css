@@ -33,7 +33,7 @@ h1>span{
 /*Modo deiferente de acessar o span do H1, poderia tabem clocar #logoUX apenas.*/
 
 header h1 #logoUX{
-    font-style: italic;
+    font-style: italic; 
 }
 
 header nav{
@@ -42,19 +42,35 @@ header nav{
 
 .grid-main{
     width: 90%;
-    height: 720px;
     margin: 0 auto;
     background-color: tomato;
 }
 
+.coluna-flex{
+    display: flex;
+    justify-content: space-between;
+}
 main{
     background-color: #ffffff;
+}
+
+#image-main{
+    width: 100%;
 }
 
 section{
     background-color: hotpink;
     border-radius: 50px;
-    width: ;
+    width: 936px;
+}
+
+section p{
+    margin: 0 31px 33px 31px;
+}
+
+aside{
+    background: blueviolet;
+    width: 309px;
 }
 
 footer{
