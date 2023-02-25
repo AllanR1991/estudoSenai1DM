@@ -59,7 +59,7 @@ main {
 #image-main {
     width: 100%;
     border-radius: 50px 50px 0 0px;
-    filter: blur(2px);
+    filter: blur(1.5px);
     display: block;
 }
 
@@ -70,7 +70,7 @@ main {
 }
 
 section {
-    margin: 1%;
+    margin: 1% 0;
     width: 936px;
     border-radius: 50px;
 }
@@ -85,16 +85,96 @@ h2 {
 }
 
 input {
-    background: linear-gradient(to right, rgba(103,103,103,0.4),rgba(255, 255, 255, 0.5), rgba(255,255,255,0)) padding-box,
+    background: 
                 linear-gradient(to right, rgba(237, 236, 237, 1), rgba(255, 255, 255, 0)) border-box;
     border-radius: 50px;
     border: 2px solid transparent;
+    height: 36px;
 }
 
 aside {
+    margin: 1% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 309px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(237, 236, 237);
+    background-color: white;
+    border-radius: 18px;
+    padding: 0 2px 0 2px;
+}
+
+.borda-h3{
+    width: 309px;
+    height: 42px;
+    text-align: center;
+    padding: 2.5% 0;
+
+    background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,1)) padding-box,
+                linear-gradient(to bottom, rgba(103, 103, 103, 1), rgba(237, 236, 237, 1))border-box;
+
+    margin-top: -3px;
+    border: 3px solid transparent;
+    border-radius: 18px;
+}
+
+.row-busca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-busca{
+    width: 205px;
+    margin: 23px 0 23px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.iconBusca{
+    width: 36px;
+    height: 36px;
+    border: 1px solid #676767;
+    background-color: #676767;
+    padding: 4px;
+    margin-left: 22px;
+}
+
+.input-email{
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#article-inscrevase p{
+    margin: 29px;
+}
+
+.postAnterior-lista {
+    width: 251px;
+    margin: 64px auto;
+    padding-left: 40px;
+    /* border: 2px solid green; */
+    list-style: disc; /* remove o marcador padrão */
+}
+
+.postAnterior-lista a{
+    text-decoration: none;
+}
+
+.postAnterior-lista li{
+    margin-top: 10px;
 }
 
 footer {
     background-color: #676767;
+    color: white;
+    text-align: center;
 }

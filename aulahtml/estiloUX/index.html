@@ -24,9 +24,9 @@
     <main>
         <div class="grid-main coluna-flex">
             <section>
-                    <img id="image-main" src="images/lapis2.png"
-                        alt="12 lapis coloridos e projetando uma sompra sobre a mesa"
-                        title="12 lapis coloridos e projetando uma sompra sobre a mesa">
+                <img id="image-main" src="images/lapis2.png"
+                    alt="12 lapis coloridos e projetando uma sompra sobre a mesa"
+                    title="12 lapis coloridos e projetando uma sompra sobre a mesa">
                 <div class="texto-principal coluna-flex-texto">
                     <h2>Cores com harmonia</h2>
 
@@ -42,26 +42,35 @@
                     <p>Aenean et feugiat eros. Integer quis nunc eget nisi tristique tincidunt. Vestibulum ut tellus
                         erat. Curabitur velit mi, tristique ac elementum nec, consectetur eu sem. Phasellus mauris
                         massa, consequat sed laoreet eu, sodales vel orci.</p>
-                    </div>
+                </div>
             </section>
 
             <aside>
 
                 <article>
-                    <h3>Buscar</h3>
-
-                    <input type="text">
+                    <h3 class="borda-h3">Buscar</h3>
+                    <div class="row-busca"> 
+                    <input class="input-busca" type="text">
+                    <img src="images/iconLupa.png" class="iconBusca" alt="">
+                    </div>
                 </article>
 
                 <article>
-                    <h3>Post Anteriores</h3>
-
+                    <h3 class="borda-h3">Post Anteriores</h3>
+                    <div class="postAnterior-lista">
+                        <ul class="borda-lista">
+                            <li><a href="">Dicas para melhorar a usabilidade da sua página.</a></li>
+                            <li><a href="">Como identificar erros em uma composição visual.</a></li>
+                            <li><a href="">Cores com Harmonia.</a></li>
+                            <li><a href="">7 Hack e dicas do Ilustrator que você precisa conhecer.</a></li>
+                        </ul>
+                    </div>
                 </article>
 
-                <article>
-                    <h3>Inscreva-se</h3>
+                <article id="article-inscrevase">
+                    <h3 class="borda-h3">Inscreva-se</h3>
                     <p>Receba as novidades do site em seu e-mail! basta adicionar seu e-mail abaixo!</p>
-                    <input type="email">
+                    <input class="input-email" type="email">
                 </article>
 
             </aside>
@@ -69,9 +78,9 @@
     </main>
 
     <footer>
-
-        <p>EstiloUX 2022 - Todos os direitos reservados</p>
-
+        <div class="grid-main">
+            <p>EstiloUX 2022 - Todos os direitos reservados</p>
+        </div>
     </footer>
 </body>
 
