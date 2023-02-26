@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <div class="grid-cabecalho header-flex">
+        <div class="grid-width-margin header-flex">
             <h1>Estilo<span id="logoUX">UX</span></h1>
             <nav>
                 <a href="">Home</a>
@@ -22,12 +22,12 @@
         </div>
     </header>
     <main>
-        <div class="grid-main coluna-flex">
+        <div class="grid-width-margin coluna-flex-between">
             <section>
                 <img id="image-main" src="images/lapis2.png"
                     alt="12 lapis coloridos e projetando uma sompra sobre a mesa"
                     title="12 lapis coloridos e projetando uma sompra sobre a mesa">
-                <div class="texto-principal coluna-flex-texto">
+                <div id="texto-principal" class="coluna-flex-texto flex-column">
                     <h2>Cores com harmonia</h2>
 
                     <p>Entenda como fazer combinação de cores que fazem sentido para sua identidade visual</p>
@@ -45,19 +45,19 @@
                 </div>
             </section>
 
-            <aside>
+            <aside class="flex-column">
 
-                <article>
-                    <h3 class="borda-h3">Buscar</h3>
-                    <div class="row-busca"> 
-                    <input class="input-busca" type="text">
-                    <img src="images/iconLupa.png" class="iconBusca" alt="">
+                <article class="flex-column">
+                    <h3 class="aside-titulo-borda">Buscar</h3>
+                    <div class="display-flex-row"> 
+                    <input id="input-busca" type="text">
+                    <img src="images/iconLupa.png" id="iconBusca" alt="">
                     </div>
                 </article>
 
-                <article>
-                    <h3 class="borda-h3">Post Anteriores</h3>
-                    <div class="postAnterior-lista">
+                <article class="flex-column">
+                    <h3 class="aside-titulo-borda">Post Anteriores</h3>
+                    <div id="texto-postAnterior">
                         <ul class="borda-lista">
                             <li><a href="">Dicas para melhorar a usabilidade da sua página.</a></li>
                             <li><a href="">Como identificar erros em uma composição visual.</a></li>
@@ -67,10 +67,10 @@
                     </div>
                 </article>
 
-                <article id="article-inscrevase">
-                    <h3 class="borda-h3">Inscreva-se</h3>
+                <article id="article-inscrevase" class="flex-column">
+                    <h3 class="aside-titulo-borda">Inscreva-se</h3>
                     <p>Receba as novidades do site em seu e-mail! basta adicionar seu e-mail abaixo!</p>
-                    <input class="input-email" type="email">
+                    <input id="input-email" type="email">
                 </article>
 
             </aside>
@@ -78,7 +78,7 @@
     </main>
 
     <footer>
-        <div class="grid-main">
+        <div class="grid-width-margin">
             <p>EstiloUX 2022 - Todos os direitos reservados</p>
         </div>
     </footer>

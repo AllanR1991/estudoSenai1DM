@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
 
-body {
-    background-color: grey;
-    font-family: 'Quicksand', sans-serif;
-}
-
-header {
-    background-color: #676767;
-}
 
 .header-flex {
     display: flex;
@@ -15,9 +7,52 @@ header {
     align-items: center;
 }
 
-.grid-cabecalho {
+.grid-width-margin {
     width: 90%;
     margin: 0 auto;
+}
+
+.coluna-flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.aside-titulo-borda{
+    height: 42px;
+    text-align: center;
+    padding: 2.5% 0;
+    width: 309px;
+    background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,1)) padding-box,
+                linear-gradient(to bottom, rgba(103, 103, 103, 1), rgba(237, 236, 237, 1))border-box;
+
+    margin-top: -3.6px;
+    border: 3px solid transparent;
+    border-radius: 18px;
+}
+
+.display-flex-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postAnterior-lista li{
+    margin-top: 10px;
+}
+
+body {
+    background-color: grey;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    background-color: #676767; 
 }
 
 h1 {
@@ -25,7 +60,7 @@ h1 {
     font-weight: 300;
 }
 
-h1>span {
+h1 span {
     font-weight: 600;
 }
 
@@ -35,24 +70,13 @@ header h1 #logoUX {
     font-style: italic;
 }
 
-header nav a {
+header nav a{
     color: white;
     text-decoration: none;
     margin-left: 70px;
 }
 
-.grid-main {
-    width: 90%;
-    margin: 0 auto;
-
-}
-
-.coluna-flex {
-    display: flex;
-    justify-content: space-between;
-}
-
-main {
+main{
     background-image: linear-gradient(#676767, #D9D9D9, #D9D9D9, #676767);
 }
 
@@ -63,33 +87,21 @@ main {
     display: block;
 }
 
-.coluna-flex-texto {
-    display: flex;
-    flex-direction: column;
+#texto-principal {
+    background-color: #D9D9D9;
     border-radius: 0 0 50px 50px;
 }
+
+#texto-principal p,
+h2 {
+    margin: 31px;
+}
+
 
 section {
     margin: 1% 0;
     width: 936px;
     border-radius: 50px;
-}
-
-.texto-principal {
-    background-color: #D9D9D9;
-}
-
-.texto-principal p,
-h2 {
-    margin: 31px;
-}
-
-input {
-    background: 
-                linear-gradient(to right, rgba(237, 236, 237, 1), rgba(255, 255, 255, 0)) border-box;
-    border-radius: 50px;
-    border: 2px solid transparent;
-    height: 36px;
 }
 
 aside {
@@ -101,8 +113,6 @@ aside {
 }
 
 article{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 3px solid rgb(237, 236, 237);
@@ -111,34 +121,22 @@ article{
     padding: 0 2px 0 2px;
 }
 
-.borda-h3{
-    width: 309px;
-    height: 42px;
-    text-align: center;
-    padding: 2.5% 0;
-
-    background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,1)) padding-box,
-                linear-gradient(to bottom, rgba(103, 103, 103, 1), rgba(237, 236, 237, 1))border-box;
-
-    margin-top: -3px;
-    border: 3px solid transparent;
-    border-radius: 18px;
+input {
+    background: 
+                linear-gradient(to right, rgba(237, 236, 237, 1), rgba(255, 255, 255, 0)) border-box;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    height: 36px;
 }
 
-.row-busca{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.input-busca{
+#input-busca{
     width: 205px;
     margin: 23px 0 23px 0;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.iconBusca{
+#iconBusca{
     width: 36px;
     height: 36px;
     border: 1px solid #676767;
@@ -147,30 +145,24 @@ article{
     margin-left: 22px;
 }
 
-.input-email{
-    width: 250px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-#article-inscrevase p{
-    margin: 29px;
-}
-
-.postAnterior-lista {
+#texto-postAnterior{
     width: 251px;
     margin: 64px auto;
     padding-left: 40px;
-    /* border: 2px solid green; */
-    list-style: disc; /* remove o marcador padrão */
+    list-style: disc;
 }
 
-.postAnterior-lista a{
-    text-decoration: none;
+
+#input-email{
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 23px;
 }
 
-.postAnterior-lista li{
-    margin-top: 10px;
+
+#article-inscrevase p{
+    margin: 29px;
 }
 
 footer {
