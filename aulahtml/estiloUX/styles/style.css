@@ -9,6 +9,8 @@
 
 .grid-width-margin {
     width: 90%;
+    max-width: 1440px;
+    min-width: 800px;
     margin: 0 auto;
 }
 
@@ -74,6 +76,7 @@ header nav a{
     color: white;
     text-decoration: none;
     margin-left: 70px;
+    filter: drop-shadow();
 }
 
 main{
