@@ -70,6 +70,7 @@ section.como-ajudamos {
     color: white;
 }
 section .como-ajudamos-flex {
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
@@ -102,10 +103,13 @@ section .conhecimento-profundo {
     height: 563px;
     background-color: white;
     color: #282C31;
-
+    position: absolute;
+    top: -80px;
+    right: 0;
+    /*
     position: relative;
     top: -80px;
-
+    */
     box-shadow: 10px 2px 45px rgba(0, 0, 0, .4);
 }
 
