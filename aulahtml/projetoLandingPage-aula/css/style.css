@@ -1,0 +1,83 @@
+
+/* Importação de uma fonte baixada para o Css */
+@font-face {
+    font-family: "allanFont";
+    src: url(../assets_/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout-grid{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 2px solid yellow; */
+}
+
+body{
+    background-color: #080324;
+}
+
+/* Header */
+
+header{
+    height: 60px;
+    background-color: #f9003D;
+}
+
+header .header-flex{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    /* border: 3px solid white; */
+}
+
+header nav a {
+    border-radius: 5px;
+    padding: 15px 25px;
+    
+    font-family: allanFont; /*possivel não utilizar ("") desde que o nome não tenha espaço*/
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 20px black;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+header nav a:hover{
+    color: #F9003D;
+    text-shadow: 0px 0px 5px rgba(249, 0, 61, 0.3);
+    background-color: white;
+}
+
+/* END Header */
+
+/* MAIN */
+/* Cover  aumenta 100 de largura e deica altura auto*/
+/* contain aumenta 100 de alutra e deixa largura auto */
+/* https://www.maujor.com/tutorial/propriedade-css-para-estilizacao-de-background.php */
+
+/* background-attachment efeito paralax */
+
+main .banner{
+    height: 740px;
+    background-image: url(../images/bannerDado.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+/* END MAIN */
