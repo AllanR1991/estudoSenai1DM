@@ -80,4 +80,41 @@ main .banner{
     background-position: bottom;
 }
 
+main .banner-flex{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    /* border: 3px solid white; */
+    
+}
+/* era somente para exibição da borda
+main .banner-flex h1,p,img,#banner-infobox{
+    border: 3px solid yellow;
+}
+*/
+
+main .banner-flex #banner-infobox{
+    width: 560px;
+}
+
+main .banner-flex h1{
+    margin-bottom: 40px;
+    font-family: allanFont;
+    color: white;
+    font-size: 96px;
+}
+
+main .banner-flex p{
+    margin-bottom: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 53px;
+    color: #f9003D;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main .sobre{
+    height: 800px;
+    background-color: #f9003D;
+}
 /* END MAIN */

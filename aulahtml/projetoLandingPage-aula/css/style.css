@@ -20,6 +20,7 @@
 
 body{
     background-color: #080324;
+    color: white;
 }
 
 /* Header */
@@ -78,6 +79,64 @@ main .banner{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+}
+
+main .banner-flex{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    /* border: 3px solid white; */
+    
+}
+/* era somente para exibição da borda
+main .banner-flex h1,p,img,#banner-infobox{
+    border: 3px solid yellow;
+}
+*/
+
+main .banner-flex #banner-infobox{
+    width: 560px;
+}
+
+main .banner-flex h1{
+    margin-bottom: 40px;
+    font-family: allanFont;
+    color: white;
+    font-size: 96px;
+}
+
+main .banner-flex p{
+    margin-bottom: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 53px;
+    color: #f9003D;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Sobre */
+
+main .sobre{
+    height: 800px;
+    /* background-color: red; */
+}
+
+main .sobre h2{
+    color: #f9003D;
+    font-family: allanFont;
+    font-size: 64px;
+}
+
+main .sobre .linha{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .sobre .linha img{
+    width: 490px;
+}
+main .sobre .linha .participantes{
+    width: 590px;
 }
 
 /* END MAIN */
