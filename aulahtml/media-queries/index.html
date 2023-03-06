@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Deve ter um link de css padrao para funcionar os links de responsabilidade sem o atributo media -->
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="tablets768.css">
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="desktops-antigos-992.css">
+    <style>
+        /* mobile first*/
+
+        body{
+            background-color: bisque;
+        }
+        h1{
+            color: blue;
+        }
+        /* Breakpoints */
+        /* >=768px tablets*/
+        @media screen and (min-width: 768px) {
+            h1{
+                color: red;
+            }
+            
+        }
+        
+        
+        
+        /* => 1440px full hd 1920px*/
+
+        @media screen and (min-width: 768px){
+            h1{
+                color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Tituloa da Pagina</h1>
+
+</body>
+</html>
