@@ -19,7 +19,7 @@
 .layout-grid{
     width: 100%;
     max-width: 1200px;
-    min-width: 930px;
+    /* min-width: 930px; */
     margin: 0 auto;
     /* border: 2px solid yellow; */
 }
@@ -41,6 +41,10 @@ header .header-flex{
     display: flex;
     justify-content: flex-end;
     align-items: stretch;
+}
+
+#menuNav{
+    display: none;
 }
 
 header nav{
@@ -81,7 +85,7 @@ header nav a:hover{
 /* Main-Banner */
 main .banner{
     height: 740px;
-    background-image: url(../images/bannerDado.png);
+    background-image: url(../assets_/images/bannerDado.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -193,7 +197,7 @@ main .sobre .sobre-container .sobre-container-coluna2 p{
 /* Main-Info*/
 
 main .informativo{
-    background-image: url(../images/imagem-fundo-info.png);
+    background-image: url(../assets_/images/imagem-fundo-info.png);
     height: 200px;
     
 }
@@ -247,7 +251,7 @@ main .informativo .informativo-content-box P{
 
 /* Footer */
 footer .fundoEndereco{
-    background-image: url(../images/imagem-fundo-enderecopng.png);
+    background-image: url(../assets_/images/imagem-fundo-enderecopng.png);
     height: 516px;
     display: flex;
     flex-direction: column;

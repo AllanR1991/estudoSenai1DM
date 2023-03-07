@@ -7,19 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Landing Page</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 769px)" href="css/mobile768px.css">
+    <link rel="stylesheet" media="screen and (max-width: 769px)" href="css/mobile769px.css">
 </head>
 
 <body>
     <header>
         <div class="layout-grid header-flex">
-            <nav>
+            <nav id="navMenu">
                 <a href="">Inicio</a>
                 <a href="">Sobre</a>
                 <a href="">Desafios</a>
                 <a href="">Endereço</a>
             </nav>
-            <img src="./assets_/icons/menuNav.svg" alt="Imagem de tres riscos na horizontal, utilizado para acessar o menu de navegação.">
+            <img src="assets_/icons/menuNav.svg" id="menuNav" alt="Imagem de tres riscos na horizontal, utilizado para acessar o menu de navegação." onclick="mostraMenu()">
         </div>
     </header>
 
@@ -31,7 +31,7 @@
                     <h1>Desenvolvimento de Sistemas 2023</h1>
                     <p>Senai Informática</p>
                     <figure>
-                        <img src="images/mouse-down 1.svg"
+                        <img src="assets_/images/mouse-down 1.svg"
                             alt="Contorno de um moude na cor amarela com uma seta para baixo na parte central e inferior do mouse.">
                     </figure>
                 </div>
@@ -42,7 +42,7 @@
                 <div class="sobre-container-coluna1">
                     <h2>Sobre os Projetos</h2>
                     <figure>
-                        <img src="images/imagem-seção-sobre.png"
+                        <img src="assets_/images/imagem-seção-sobre.png"
                             alt="Um instrutor em pé ministrando uma aula para algumas pessoas, que o olham fixamente.">
                     </figure>
                 </div>
@@ -103,7 +103,7 @@
                     
                     <div class="enderecoEMap endereco">
                         <p>Alameda Barão de Limeira, 539 Santa Cecilia, São Paulo - SP CEP: 01202-001</p>
-                        <img src="images/map.png"
+                        <img src="assets_/images/map.png"
                             alt="Mapa contendo a localização: Alameda Barão de Limeira, 539 Santa Cecilia, São Paulo - SP CEP: 01202-001">
                     </div>
                 </div >
@@ -118,6 +118,7 @@
         </div>
 
     </footer>
+    <script src="/js/principal.js"></script>
 </body>
 
 </html>
