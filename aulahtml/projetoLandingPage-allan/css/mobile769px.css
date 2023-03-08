@@ -2,14 +2,9 @@
     /* .header-flex nav{
         display: block;
     } */
-    
-:root{
-    --comprimentodaView:calc((100vw*7.5));
-}
-
 
 .mostrarMenu{
-        left:calc(var(--comprimentodaView)-300px);
+        left:0;
         opacity: 1;
 }
 
@@ -24,16 +19,16 @@
     header nav{
         position: fixed;
         top:60px;
-        left: calc(var(--comprimentodaView));
-        width: 200px;
-        height: 500px;
+        left: -80VW;
+        width: 80VW;
+        height: 100VH;
         /* height: calc(100%-60%); */
         flex-direction: column;
         justify-content: space-evenly;
         background-color: #f9003d;
 
-        opacity: 1;
-        transition: right 0.8s opacity 0.5s;
+        opacity: 0;
+        transition: left 0.8s; opacity: 0.5;
     }
 
     header nav a{
